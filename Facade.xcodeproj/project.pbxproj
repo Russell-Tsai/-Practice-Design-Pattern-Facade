@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		8EB3010F1FFCCF030053EF33 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB3010E1FFCCF030053EF33 /* main.swift */; };
+		8EB301161FFCCF270053EF33 /* TreasureMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB301151FFCCF270053EF33 /* TreasureMap.swift */; };
+		8EB301181FFCD04D0053EF33 /* Ship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB301171FFCD04D0053EF33 /* Ship.swift */; };
+		8EB3011A1FFCD1340053EF33 /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB301191FFCD1340053EF33 /* Member.swift */; };
+		8EB3011E1FFCD6300053EF33 /* StoneFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB3011D1FFCD6300053EF33 /* StoneFacade.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		8EB3010B1FFCCF020053EF33 /* Facade */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Facade; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EB3010E1FFCCF030053EF33 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		8EB301151FFCCF270053EF33 /* TreasureMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreasureMap.swift; sourceTree = "<group>"; };
+		8EB301171FFCD04D0053EF33 /* Ship.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ship.swift; sourceTree = "<group>"; };
+		8EB301191FFCD1340053EF33 /* Member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
+		8EB3011D1FFCD6300053EF33 /* StoneFacade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoneFacade.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +49,7 @@
 		8EB301021FFCCF020053EF33 = {
 			isa = PBXGroup;
 			children = (
+				8EB3011D1FFCD6300053EF33 /* StoneFacade.swift */,
 				8EB3010D1FFCCF020053EF33 /* Facade */,
 				8EB3010C1FFCCF020053EF33 /* Products */,
 			);
@@ -58,6 +67,9 @@
 			isa = PBXGroup;
 			children = (
 				8EB3010E1FFCCF030053EF33 /* main.swift */,
+				8EB301151FFCCF270053EF33 /* TreasureMap.swift */,
+				8EB301171FFCD04D0053EF33 /* Ship.swift */,
+				8EB301191FFCD1340053EF33 /* Member.swift */,
 			);
 			path = Facade;
 			sourceTree = "<group>";
@@ -121,6 +133,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EB3010F1FFCCF030053EF33 /* main.swift in Sources */,
+				8EB301181FFCD04D0053EF33 /* Ship.swift in Sources */,
+				8EB3011E1FFCD6300053EF33 /* StoneFacade.swift in Sources */,
+				8EB301161FFCCF270053EF33 /* TreasureMap.swift in Sources */,
+				8EB3011A1FFCD1340053EF33 /* Member.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
